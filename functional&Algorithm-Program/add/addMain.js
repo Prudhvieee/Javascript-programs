@@ -1,0 +1,8 @@
+const userInput=require('readline-sync')
+const blObject =require('./addBl.js')
+let a=userInput.questionInt("Enter value of a:")
+console.log(a)
+let b=userInput.questionInt("Enter value of b:")
+console.log(b)
+let result=blObject.addOperation(a,b)
+console.log(result)
