@@ -4,6 +4,5 @@ findingPowers=(N)=>{
         result = result * 2;
     }
 	return result;
-    console.log("2 * "+N+" = "+value);
 }
 module.exports={findingPowers}

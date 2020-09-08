@@ -3,10 +3,7 @@ flipingCoin=(flips)=>{
     tails=0;
     for(i=1;i<=flips;i++){
         let r=Math.random();
-        if(r<0.5)
-        tails++;
-        else
-        heads++;
+        r<0.5?tails++:heads++;
     }
     console.log("No. of times got heads "+heads);
     console.log("No. of times got tails "+tails);
